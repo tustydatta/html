@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="200" height="100" style="border: 1px solid #d3d3d3;">
+	Your browser does not support the HTML canvas tag.
+</canvas>
+
+<script>
+	var c = document.getElementById("myCanvas");
+	var ctx = c.getContext("2d");
+	var gdt = ctx.createLinearGradient(10,10,110,0);
+	gdt.addColorStop(0, "red");
+	gdt.addColorStop(1, "black");
+	ctx.fillRect(10,10,180,80);
+</script>
+
+</body>
+</html>
