@@ -1,0 +1,32 @@
+body {
+	background-color: #35231d;
+}
+.header {
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+}
+span {
+	color: #e91e63;
+}
+table {
+	margin: 70px;
+	border-spacing: 30px;
+}
+td {
+	background-color: #200a02;
+	color: white;
+	height: 100px;
+	width: 400px;
+	padding: 20px;
+	text-align: center;
+	border-bottom: 1px solid #e91e63;
+	letter-spacing: 1px;
+}
+tr {
+	margin: 10px;
+}
+.main h1 {
+	text-align: center;
+	color: #e91e63;
+}
