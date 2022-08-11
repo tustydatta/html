@@ -2,6 +2,89 @@ body {
 	background-color: #a128b6;
 	font-family: Arial;
 }
+.viewport {
+	width: auto;
+	height: 100px;
+	margin-left: 70px;
+}
+.icon {
+	width: 200px;
+	float: left;
+	height: 70px;
+}
+.logo {
+	color: #ff7200;
+	font-size: 35px;
+	padding-left: 20px;
+	float: left;
+	padding-top: 10px;
+}
+.menu {
+	width: 400px;
+	height: 70px;
+	float: left;
+}
+ul {
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+ul li {
+	list-style: none;
+	margin-left: 62px;
+	margin-top: 27px;
+	font-size: 14px;
+}
+
+ul>li>a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	transition: 0.4s ease-in-out;
+}
+ul>li>a:hover {
+	color: #ff7200;
+}
+.search {
+	width: 330px;
+	float: left;
+	margin-left: 300px;
+	margin-top: 25px;
+}
+.srch {
+	font-family: 'Times New Roman';
+	width: 200px;
+	height: 40px;
+	background: transparent;
+	border: 1px solid #ff7200;
+	margin-top: 13px;
+	color: #fff;
+	border-right: none;
+	font-size: 16px;
+	float: left;
+	padding: 10px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.btn {
+	width: 100px;
+	height: 40px;
+	background: #ff7200;
+	border: 2px solid #ff7200;
+	margin-top: 13px;
+	color: #fff;
+	font-size: 15px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.btn:focus {
+	outline: none;
+}
+.srch:focus {
+	outline: none;
+}
+
 .tab {
 	background-color: #fff;
 	width: 900px;
@@ -24,7 +107,7 @@ input {
 	width: 700px;
 	height: 60px;
 }
-button {
+.submit {
 	background-color: #000;
 	color: #fff;
 	border-radius: 30px;
